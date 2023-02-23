@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import { Layout , Menu } from 'antd'
-
-
 import Cards from '../Cards/Cards'
 import SearchUser from '../SearchUser/searchUser'
 import My from '../My/My'
+
+
 const {Header , Content ,  Sider} = Layout;
 
 
@@ -23,11 +23,11 @@ const Home = () => {
                 <Menu theme='dark' defaultSelectedKeys={['1']} mode='inline'>
                     <Menu.Item key='1' onClick={() => setClickMy(false)}>
                         
-                        <span>Cards</span>
+                        <span>Users</span>
                     </Menu.Item>
                     <Menu.Item key='2' onClick={() => setClickMy(true)}>
                        
-                        <span>My</span>
+                        <span>About Me</span>
                     </Menu.Item>
 
                 </Menu>

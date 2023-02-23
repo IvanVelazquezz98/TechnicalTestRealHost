@@ -21,8 +21,12 @@ const My = () => {
         Terminé bootcamp soy Henry, en el que realize de forma exitosa todos los proyectos necesarios para la graduación. Estoy listo para nuevos desafíos en el mundo de la programación.
       </p>
       <br></br>
-      <h3 className={styles.divTitle}>Sobre la prueba tecnica:  </h3>
+      <h3 className={styles.divTitle}>Sobre la prueba técnica:  </h3>
       <p>
+        Nunca había utilizado Sagas (había utilizado thunk) y me pareció un lindo desafío.
+        También veo que Sagas es mucho más completo y era un mundo que desconocía por así que me ayudo para aprender algo nuevo.
+        Espero que les haya gustado, intente enfocarme lo más posible en usar las mejores prácticas que conozco.
+        Ya es mi tercer prueba técnica, algunos dicen que la tercera es la vencida :).
       </p>
       <h3 className={styles.divTitle}>Mis redes y demás vínculos:</h3>
       <h4>Email:</h4><h5>Velazquez.ivan.e98@gmail.com</h5>

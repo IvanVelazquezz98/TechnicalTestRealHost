@@ -14,8 +14,7 @@ const { Search } = Input;
 const SearchUser = () => {
   const dispatch = useDispatch()
   const onSearch = (value) => {
-    dispatch(usersActions.search(value))
-  console.log('valor que escribo en el imput' , value)};
+    dispatch(usersActions.search(value))};
 
 
   return (<Space direction="vertical">

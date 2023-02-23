@@ -22,7 +22,7 @@ export default function* tryUserSearch(data) {
             dataFilter.push(c)
           })
 
-            console.log(dataFilter)
+       
         yield put({ type: userActions.SEARCH_SUCCESS, dataFilter })
     } catch (e) {
         
