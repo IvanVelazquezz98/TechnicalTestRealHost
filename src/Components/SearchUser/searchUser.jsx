@@ -19,7 +19,7 @@ const SearchUser = () => {
 
   return (<Space direction="vertical">
 
-    <Search placeholder="input search text" onSearch={onSearch} enterButton />
+    <Search placeholder="Search User.." onSearch={onSearch} enterButton />
     
   </Space>)
   
