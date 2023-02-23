@@ -37,5 +37,4 @@ const Cards = () => {
     rowKey={"id"} />)
 }
 
-//https://github.com/cod3a/reactjs-antd-redux-tutorial.git
 export default Cards
